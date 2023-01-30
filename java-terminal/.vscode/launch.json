@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "java",
             "name": "Launch Current File",
@@ -15,19 +16,14 @@
             "name": "Launch AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
-            "args": [ "GABRIEL", 
-                      "SOUZA",
-                      "26",
-                      "1.60"
-            ]
-            "projectName": "java-terminal_e6eece82"
+            "projectName": "java-terminal"
         },
         {
             "type": "java",
-            "name": "Launch MinhaClasse",
+            "name": "Launch MyClass",
             "request": "launch",
-            "mainClass": "MinhaClasse",
-            "projectName": "java-terminal_e6eece82"
+            "mainClass": "MyClass",
+            "projectName": "java-terminal"
         }
     ]
 }
